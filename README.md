@@ -25,3 +25,6 @@ to apply a new patch:
     test stdevage branch for functionality
     merge dev into master
     test master
+
+## additional prereq packages
+libxrandr-dev
