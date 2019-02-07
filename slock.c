@@ -288,7 +288,7 @@ lockscreen(Display *dpy, struct xrandr *rr, int screen)
 		DefaultVisual(dpy, lock->screen),
 		// CWOverrideRedirect | CWBackPixel, &wa);
 		CWOverrideRedirect, &wa);
-	generate)generate_background(dpy, lock);
+	generate_background(dpy, lock);
 	lock->pmap = XCreateBitmapFromData(dpy, lock->win, curs, 8, 8);
 	invisible = XCreatePixmapCursor(dpy, lock->pmap, lock->pmap,
 		&color, &color, 0, 0);
