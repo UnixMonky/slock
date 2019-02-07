@@ -5,7 +5,7 @@ Simple X display locker. (by suckless) [customized]
 Original: https://tools.suckless.org/slock/
 
 ## Patches/Customizations in use
-- None yet
+- Blur
 
 
 ## Patching process
